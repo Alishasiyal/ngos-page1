@@ -1,0 +1,148 @@
+body {
+  overflow-x: hidden;
+}
+
+.bg-img {
+  background-image: url(img/pexels-juanpphotoandvideo-1250452.jpg);
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.border-start {
+  border-width: 5px !important;
+  border-color: #fea600 !important;
+}
+.text-color {
+  color: #fea600;
+}
+.btn-bg {
+  background-color: #22b6af;
+  color: white;
+}
+.my-bg {
+  background-color: #e8f8f7;
+}
+.card-1 {
+  background-color: #fe7700;
+}
+
+.card-2 {
+  background-color: #22b6af;
+}
+.card-3 {
+  background-color: #fea600;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+  transition: transform 0.4s ease;
+}
+
+.card-1:hover,
+.card-2:hover,
+.card-3:hover {
+  transform: translateY(-10px);
+}
+
+/* container five */
+.icon-box {
+  width: 50px;
+  height: 50px;
+  background-color: #fe7700;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.icon-box img {
+  max-width: 60%;
+  height: auto;
+}
+
+h4,
+p {
+  margin: 0;
+  color: #333;
+}
+
+/* container 6 */
+
+.rate {
+  color: #ffa500;
+  font-size: 1.5rem;
+}
+.col-md-5 {
+  border-radius: 10px;
+}
+/* container 9 */
+.bg-img2 {
+  background-image: url(img/page-4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.my-card {
+  background-color: transparent;
+}
+/*  */
+
+/*  container 12 */
+
+.last-bg-img {
+  background-image: url("img/last-img.jpg"); /* Replace with your image path */
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start; /* Align content to the left */
+  align-items: flex-start; /* Align content to the top */
+  min-height: 400px;
+  position: relative;
+}
+
+.testimonial-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  position: relative;
+  padding: 20px;
+  max-width: 400px;
+  margin-top: 200px; /* Push the card down */
+  margin-left: 20px; /* Add some space from the left side */
+}
+
+.my-bg {
+  background-color: #f8f9fa;
+}
+
+.testimonial-card::before {
+  content: "”";
+  font-size: 50px;
+  color: orange;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  opacity: 0.7;
+}
+
+.customer-name {
+  font-weight: bold;
+}
+
+.customer-role {
+  color: gray;
+  font-size: 0.9rem;
+}
+
+.testimonial-text {
+  margin-top: 10px;
+  color: #555;
+}
+
+/* last container */
+.last-bg {
+  background-color: #22b6af;
+}
